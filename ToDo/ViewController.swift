@@ -61,8 +61,17 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete{
+            taskArray.remove(at: indexPath.row)
+            tableView.deleteRows(at: [indexPath], with: .fade)
+        }
+        tableView.reloadData()
+    }
+    
+    
     @IBAction func buttonPressed(_ sender: Any) {
-        
+
         if taskTitle.hasText{
             let newTask = Task(taskTitle: taskTitle.text, isCompleted: false)
             taskArray.insert(newTask, at: 0)
@@ -74,4 +83,3 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
 }
-
