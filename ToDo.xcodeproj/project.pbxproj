@@ -15,6 +15,7 @@
 		F437253926E95AC8002C7BC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F437253726E95AC8002C7BC4 /* LaunchScreen.storyboard */; };
 		F437254426E95AC8002C7BC4 /* ToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F437254326E95AC8002C7BC4 /* ToDoTests.swift */; };
 		F437254F26E95AC8002C7BC4 /* ToDoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F437254E26E95AC8002C7BC4 /* ToDoUITests.swift */; };
+		F437255D26E95D13002C7BC4 /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F437255C26E95D13002C7BC4 /* TaskTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F437254A26E95AC8002C7BC4 /* ToDoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F437254E26E95AC8002C7BC4 /* ToDoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoUITests.swift; sourceTree = "<group>"; };
 		F437255026E95AC8002C7BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F437255C26E95D13002C7BC4 /* TaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				F437253526E95AC8002C7BC4 /* Assets.xcassets */,
 				F437253726E95AC8002C7BC4 /* LaunchScreen.storyboard */,
 				F437253A26E95AC8002C7BC4 /* Info.plist */,
+				F437255C26E95D13002C7BC4 /* TaskTableViewCell.swift */,
 			);
 			path = ToDo;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F437255D26E95D13002C7BC4 /* TaskTableViewCell.swift in Sources */,
 				F437253126E95AC6002C7BC4 /* ViewController.swift in Sources */,
 				F437252D26E95AC6002C7BC4 /* AppDelegate.swift in Sources */,
 				F437252F26E95AC6002C7BC4 /* SceneDelegate.swift in Sources */,
